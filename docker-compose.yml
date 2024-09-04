@@ -1,0 +1,22 @@
+
+services:
+  reviewaiter:
+    build: crawler/
+    container_name: reviewaiter-crawler
+    security_opt:
+      - seccomp=crawler/seccomp_profile.json
+    ipc: host
+    tty: true
+    command: /bin/bash
+
+volumes:
+  data:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./data/
+      o: bind
+
+networks:
+  default:
+    driver: bridge

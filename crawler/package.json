@@ -1,0 +1,31 @@
+{
+  "name": "reviewaiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsodaZen/reviewaiter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsodaZen/reviewaiter/issues"
+  },
+  "homepage": "https://github.com/IsodaZen/reviewaiter#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@playwright/test": "^1.46.1",
+    "@stylistic/eslint-plugin": "^2.7.2",
+    "@stylistic/eslint-plugin-ts": "^2.7.2",
+    "@types/node": "^22.5.3",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^8.4.0"
+  }
+}
